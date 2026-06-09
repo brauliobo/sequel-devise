@@ -1,14 +1,15 @@
-# Sequel::Devise
+# Sequel::Devise Updated
 
 Allows the usage of a Sequel::Model class as a Devise mapping.
 
 This gem was previously developed at [rosenfeld/sequel-devise](https://github.com/rosenfeld/sequel-devise).
+This updated package keeps the same runtime require path and Sequel plugin while adding compatibility for Devise 5.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'sequel-devise'
+    gem 'sequel-devise-updated', require: 'sequel-devise'
 
 And then execute:
 
@@ -16,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sequel-devise
+    $ gem install sequel-devise-updated
 
 ## Usage
 
